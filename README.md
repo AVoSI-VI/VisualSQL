@@ -10,3 +10,14 @@ A GUI made in Flutter for interacting with databases.
 I'm a visual person so the goal of this project is to create
 a way to do everything one would be able to do with sql commands
 without having to write actual code through an intuitive and easy to navigate GUI
+
+# TODOs:
+-Build main GUI
+-Add section to connect to a SQL database
+-Add section for Database schema 
+-Implement base table visualization
+-Implement drag and drop table joins
+-Implement GUI based window functions
+-Implement GUI based CTEs
+-Implement GUI based Aggregate functions
+... etc.
