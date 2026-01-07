@@ -1,4 +1,4 @@
-Version: 0.0.1 - Nothing has been implemented yet
+Version: 0.0.2 - Testing GUI no logic yet
 
 # VisualSQL
 

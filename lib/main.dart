@@ -15,8 +15,12 @@ class MyApp extends StatelessWidget {
       title: 'VisualSQL Alpha V-0.0.2',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
+        appBarTheme: AppBarTheme(color: Colors.blueGrey),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+        ))
       ),
-      home: const HomePage(),
+      home: HomePage(),
       debugShowCheckedModeBanner: false,
     );
   }
