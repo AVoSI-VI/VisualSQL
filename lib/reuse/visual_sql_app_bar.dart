@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:visual_sql/pages/database_connection_page.dart';
 
 class VisualSqlAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String pageTitle;
@@ -11,7 +12,11 @@ class VisualSqlAppBar extends StatelessWidget implements PreferredSizeWidget {
         pageTitle
       ),
       actions: [
-        ElevatedButton(onPressed: null, child: Text("Placeholder button"))
+        if (pageTitle == "Home") ...[ElevatedButton(onPressed: () {
+          Navigator.push(context,
+          MaterialPageRoute(builder: (context) => DatabaseConnectionPage()));
+        }, child: Text("Connect to Database"))
+        ]
       ],
     );
   }
